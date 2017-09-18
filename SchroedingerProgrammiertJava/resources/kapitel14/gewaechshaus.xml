@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gewaechsHaus gewaechsHausName="Gelbe Pflanzen">
+    <pflanzen>
+        <pflanze>
+            <name>Strohblume</name>
+            <lateinischerName>Helichrysum</lateinischerName>
+            <farbe>gelb</farbe>
+            <hoehe>30.0</hoehe>
+        </pflanze>
+        <pflanze>
+            <name>Johanniskraut</name>
+            <lateinischerName>Hypericum perforatum</lateinischerName>
+            <farbe>gelb</farbe>
+            <hoehe>20.0</hoehe>
+        </pflanze>
+    </pflanzen>
+</gewaechsHaus>

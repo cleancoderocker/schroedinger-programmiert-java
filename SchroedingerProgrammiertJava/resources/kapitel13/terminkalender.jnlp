@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Terminkalender</title>
+        <vendor>Schroedinger</vendor>
+        <icon href="icon.jpg"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <java version="1.6+"/>
+        <jar href="../../build/jar/Terminkalender.jar" main="true" />
+    </resources>
+    <application-desc
+         name="Terminkalender"
+         main-class="de.galileocomputing.schroedinger.java.kapitel16.terminkalender.Main"
+         width="300"
+         height="300">
+     </application-desc>
+     <update check="background"/>
+</jnlp>

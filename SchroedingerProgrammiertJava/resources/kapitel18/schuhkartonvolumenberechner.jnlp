@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="schuhkartonvolumenberechner.jnlp">
+    <information>
+        <title>Schuhkartonvolumenberechner</title>
+        <vendor>Schroedinger</vendor>
+        <icon href="icon.jpg"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <java version="1.6+"/>
+        <jar href="../../build/jar/SchuhKartonVolumenBerechner.jar" main="true" />
+    </resources>
+    <application-desc main-class="de.galileocomputing.schroedinger.java.kapitel16.swing.schuhe.Main" />
+</jnlp>

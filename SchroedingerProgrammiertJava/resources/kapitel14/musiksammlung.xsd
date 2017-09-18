@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:ms="http://www.rheinwerk-verlag.de/schroedinger/musiksammlung"
+	targetNamespace="http://www.rheinwerk-verlag.de/schroedinger/musiksammlung"
+	elementFormDefault="qualified">
+	<element name="musiksammlung">
+		<complexType>
+			<sequence>
+				<element name="kuenstler" type="ms:kuenstler" maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="kuenstler">
+		<sequence>
+			<element name="name" type="string" />
+			<element name="alben" type="ms:alben" />
+		</sequence>
+	</complexType>
+	<complexType name="alben">
+		<sequence>
+			<element name="album" type="ms:album" maxOccurs="unbounded" />
+		</sequence>
+	</complexType>
+	<complexType name="album">
+		<sequence>
+			<element name="veroeffentlicht" type="int" maxOccurs="1"/>
+		</sequence>
+		<attribute name="titel" type="string" />
+	</complexType>
+</schema>

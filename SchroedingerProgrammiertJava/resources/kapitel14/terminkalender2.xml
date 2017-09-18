@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<terminkalender xmlns="http://www.rheinwerk-verlag.de/schroedinger/terminkalender" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <besitzer>
+    <name>Schrödinger</name>
+  </besitzer>
+  <termine name="Wichtige Termine">
+    <termin>
+      <was>Mit DOM-API Musiksammlung von deiner Freundin als XML-Dokument erstellen.</was>
+      <wann>Sofort</wann>
+      <wo>Werkstatt</wo>
+    </termin>
+  </termine>
+</terminkalender>

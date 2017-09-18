@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<terminkalender xmlns="http://www.rheinwerk-verlag.de/schroedinger/terminkalender">
+    <besitzer>
+        <name>Schrödinger</name>
+    </besitzer>
+    <termine name="Neue Termine">
+        <termine>
+            <was>DSDS gucken</was>
+            <wann>20:15</wann>
+            <wo>Wohnzimmer</wo>
+        </termine>
+    </termine>
+</terminkalender>

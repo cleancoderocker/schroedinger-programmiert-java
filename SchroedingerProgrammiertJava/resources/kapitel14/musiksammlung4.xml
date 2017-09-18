@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musiksammlung
+	xmlns="http://www.rheinwerk-verlag.de/schroedinger/musiksammlung"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rheinwerk-verlag.de/schroedinger/musiksammlung musiksammlung.xsd">
+	<kuenstler>
+		<name>Jimi Hendrix</name>
+		<alben>
+			<album titel="Are You Experienced">
+				<veroeffentlicht>1967</veroeffentlicht>
+			</album>
+			<album titel="Electric Ladyland">
+				<veroeffentlicht>1968</veroeffentlicht>
+			</album>
+		</alben>
+	</kuenstler>
+	<kuenstler>
+		<name>The Beatles</name>
+		<alben>
+			<album titel="The BEATLES">
+				<veroeffentlicht>1968</veroeffentlicht>
+			</album>
+			<album titel="Yellow Submarine">
+				<veroeffentlicht>1969</veroeffentlicht>
+			</album>
+		</alben>
+	</kuenstler>
+	<kuenstler>
+		<name>Deep Purple</name>
+		<alben>
+			<album titel="Shades of Deep Purple">
+				<veroeffentlicht>1968</veroeffentlicht>
+			</album>
+			<album titel="Deep Purple in Rock">
+				<veroeffentlicht>1970</veroeffentlicht>
+			</album>
+		</alben>
+	</kuenstler>
+</musiksammlung>

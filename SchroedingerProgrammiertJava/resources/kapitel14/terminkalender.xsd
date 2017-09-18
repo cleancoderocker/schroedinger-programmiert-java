@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:tk="http://www.rheinwerk-verlag.de/schroedinger/terminkalender"
+	targetNamespace="http://www.rheinwerk-verlag.de/schroedinger/terminkalender"
+	elementFormDefault="qualified">
+	<element name="terminkalender">
+		<complexType>
+			<sequence>
+				<element name="besitzer" type="tk:besitzer" />
+				<element name="termine" type="tk:termine" />
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="besitzer">
+		<sequence>
+			<element name="name" type="string" />
+		</sequence>
+	</complexType>
+	<complexType name="termine">
+		<sequence>
+			<element name="termin" type="tk:termin" minOccurs="0" maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="name" type="string" />
+	</complexType>
+	<complexType name="termin">
+		<sequence>
+			<element name="was" type="string" />
+			<element name="wann" type="string" />
+			<element name="wo" type="string" />
+		</sequence>
+	</complexType>
+</schema>

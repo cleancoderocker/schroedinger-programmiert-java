@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<musiksammlung xmlns="http://www.rheinwerk-verlag.de/schroedinger/musiksammlung" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kuenstler>
+    <name>V/A</name>
+    <alben>
+      <album titel="Kuschelrock 24">
+        <veroeffentlicht>2010</veroeffentlicht>
+      </album>
+    </alben>
+  </kuenstler>
+</musiksammlung>

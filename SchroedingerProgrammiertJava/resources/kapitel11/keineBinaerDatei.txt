@@ -1,0 +1,3 @@
+Das ist ein Text, 
+der so tut., 
+als sei er eine Binärdatei.
