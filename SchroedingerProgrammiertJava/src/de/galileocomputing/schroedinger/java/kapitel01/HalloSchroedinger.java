@@ -15,9 +15,9 @@ public class HalloSchroedinger {
 	 */
 	public static void main(String[] args) throws IOException {
 		System.out.println("Hallo " + args[0]);
-		System.out.println("Wie alt bist Du?");
-		int alter = System.in.read();
-		System.out.println(alter);
+		System.out.println("Gib einen Wert ein:");
+		int wert = System.in.read();
+		System.out.println(wert);
 	}
 
 }
