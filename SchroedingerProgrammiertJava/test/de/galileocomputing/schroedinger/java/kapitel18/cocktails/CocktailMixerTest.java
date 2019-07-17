@@ -1,11 +1,9 @@
 package de.galileocomputing.schroedinger.java.kapitel18.cocktails;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import de.galileocomputing.schroedinger.java.kapitel18.cocktails.zutaten.Apfelsaft;
 import de.galileocomputing.schroedinger.java.kapitel18.cocktails.zutaten.Banane;
@@ -20,12 +18,12 @@ public class CocktailMixerTest {
 	
 	private CocktailMixer cocktailMixer;
 
-	@Before
+	@BeforeEach
 	public void setUp() {
 		this.cocktailMixer = new StandardCocktailMixer();
 	}
 	
-	@After
+	@AfterEach
 	public void tearDown() {
 		
 	}
@@ -49,13 +47,15 @@ public class CocktailMixerTest {
 	}
 	
 	@SuppressWarnings("unused")
-	@Test(expected=EkligeZutatenKombinationException.class)
+	@Test
 	public void testeEkligeZutatenKombination() throws EkligeZutatenKombinationException {
-		Banane banane = new Banane();
-		Apfelsaft apfelsaft = new Apfelsaft();
-		this.cocktailMixer.hinzufuegen(banane);
-		this.cocktailMixer.hinzufuegen(apfelsaft);
-		Cocktail cocktail = this.cocktailMixer.mixen();
+		assertThrows(EkligeZutatenKombinationException.class, () -> {
+			Banane banane = new Banane();
+			Apfelsaft apfelsaft = new Apfelsaft();
+			this.cocktailMixer.hinzufuegen(banane);
+			this.cocktailMixer.hinzufuegen(apfelsaft);
+			Cocktail cocktail = this.cocktailMixer.mixen();
+		});
 	}
 	
 	@SuppressWarnings("unused")
