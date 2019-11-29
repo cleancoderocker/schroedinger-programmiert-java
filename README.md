@@ -10,7 +10,7 @@ Wie Du die fehlenden Bibliotheken nachinstallierst, ist in den beiden folgenden 
 
 ## JAXB
 
-Mit Java 11 ist JAXB ist das Package `javax.xml.bind` nicht mehr in Java SE/EE enthalten, was dazu führt, dass einige Beispiele aus dem Schrödinger-Projekt nach der obigen Installation nicht direkt funktionieren. Beispielsweise lässt sich die Klasse `de.galileocomputing.schroedinger.java.kapitel14.pflanzen.JAXB` nicht ausführen bzw. es erscheint folgender Kompilierungsfehler:
+Das Package `javax.xml.bind` ist mittlerweile nicht mehr in Java SE/EE enthalten, was dazu führt, dass einige Beispiele aus dem Schrödinger-Projekt nach der obigen Installation nicht direkt funktionieren. Beispielsweise lässt sich die Klasse `de.galileocomputing.schroedinger.java.kapitel14.pflanzen.JAXB` nicht ausführen bzw. es erscheint folgender Kompilierungsfehler:
 
 ```
 Exception in thread "main" java.lang.Error: Unresolved compilation problems:
