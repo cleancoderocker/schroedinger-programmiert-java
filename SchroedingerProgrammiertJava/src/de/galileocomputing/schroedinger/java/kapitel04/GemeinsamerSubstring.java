@@ -12,7 +12,7 @@ public class GemeinsamerSubstring {
 		String gemeinsamerSubstring = "";
 		for (int i = 0; i < s1.length(); i++) {
 			for(int j = 0; j < s1.length() - i; j++) {
-				String teilString = s1.substring(j, j+i);
+				String teilString = s1.substring(j, j+i+1);
 				if(s2.contains(teilString)) {
 					gemeinsamerSubstring = teilString;
 				}
